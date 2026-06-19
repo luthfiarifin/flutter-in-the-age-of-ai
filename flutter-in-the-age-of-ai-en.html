@@ -135,6 +135,12 @@ a:hover{color:var(--accent);}
 .qr span.l{background:var(--accent);}
 .card.ink .qr span.k{background:var(--paper);}
 
+/* QR scan card — white quiet zone + rounded frame + caption.
+   White bg & high contrast = best practice for reliable scanning. */
+.qr-card{background:#fff;border-radius:28px;padding:30px 30px 22px;display:flex;flex-direction:column;align-items:center;gap:18px;box-shadow:0 10px 30px rgba(10,10,10,0.14);}
+.qr-card img{width:268px;height:268px;display:block;border-radius:6px;}
+.qr-card-label{font-family:var(--font-mono);font-weight:500;font-size:20px;line-height:1;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink);}
+
 /* ===========================================
    PAGE NUMBER TAG — persistent bottom-left stamp "NN / 17"
    =========================================== */
@@ -745,23 +751,31 @@ a:hover{color:var(--accent);}
 <section class="slide">
     <div class="frame">
         <div class="card ink reveal pad-xl center" style="grid-column:1/span 8;grid-row:1/span 8;">
-            <div class="label muted" style="margin-bottom:24px;">THANK YOU</div>
-            <h2 class="display" style="margin-bottom:44px;">QNA &amp;<br>LET'S CHAT.</h2>
-            <div class="gap-m">
-                <div>
-                    <div class="label-sm muted">INSTAGRAM · TIKTOK</div>
-                    <div class="card-headline"><mark>@luthfi.aar</mark></div>
+            <div class="label muted" style="margin-bottom:18px;">THANK YOU</div>
+            <h2 class="display" style="margin-bottom:22px;">LET'S BUILD<br>SOMETHING.</h2>
+            <p class="body-sm muted" style="margin-bottom:34px;max-width:640px;">Questions, ideas, or just want to talk product &amp; AI? My DMs are open — let's keep the conversation going.</p>
+            <div style="display:flex;flex-direction:column;gap:34px;">
+                <div class="gap-s">
+                    <div class="label-sm muted"><a href="https://www.instagram.com/luthfi.aar" target="_blank" rel="noopener">INSTAGRAM</a> · <a href="https://www.tiktok.com/@luthfi.aar" target="_blank" rel="noopener">TIKTOK</a></div>
+                    <div class="card-headline"><a href="https://www.instagram.com/luthfi.aar" target="_blank" rel="noopener" style="text-decoration:none;"><mark>@luthfi.aar</mark></a></div>
                 </div>
-                <div>
-                    <div class="label-sm muted">LINKEDIN · MEDIUM</div>
-                    <div class="card-headline"><em>@luthfiarifin</em></div>
+                <div class="gap-s">
+                    <div class="label-sm muted"><a href="https://www.linkedin.com/in/luthfiarifin" target="_blank" rel="noopener">LINKEDIN</a> · <a href="https://luthfiarifin.medium.com" target="_blank" rel="noopener">MEDIUM</a></div>
+                    <div class="card-headline"><a href="https://www.linkedin.com/in/luthfiarifin" target="_blank" rel="noopener" style="text-decoration:none;"><em>@luthfiarifin</em></a></div>
+                </div>
+                <div class="gap-s">
+                    <div class="label-sm muted">SLIDES &amp; SOURCES</div>
+                    <div class="card-h3"><a href="https://luthfiarifin.github.io/flutter-in-the-age-of-ai" target="_blank" rel="noopener">luthfiarifin.github.io/flutter-in-the-age-of-ai</a></div>
                 </div>
             </div>
         </div>
         <div class="card lemon reveal pad-xl between center" style="grid-column:9/span 4;grid-row:1/span 8;">
             <div class="label-sm">SCAN — LET'S CONNECT</div>
-            <img src="assets/qr.svg" alt="QR code — connect with Luthfi Arifin" style="width:300px;height:300px;display:block;">
-            <div class="blockmark"><span></span><span></span><span></span><span></span></div>
+            <div class="qr-card">
+                <img src="assets/qr.svg" alt="QR code — connect with Luthfi Arifin">
+                <div class="qr-card-label">@LUTHFIARIFIN</div>
+            </div>
+            <div class="label-sm" style="text-align:center;line-height:1.4;">FIND EVERYTHING<br><strong>IN ONE PLACE</strong></div>
         </div>
     </div>
     <div class="pagenum invert">18 / 18</div>
