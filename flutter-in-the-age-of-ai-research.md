@@ -45,6 +45,7 @@ The evidence that **junior/entry-level software roles have shrunk sharply since 
 - **AI Engineer is LinkedIn's #1 fastest-growing role** (2025 & 2026) — LinkedIn Jobs on the Rise 2026 — Jan 2026 — https://www.linkedin.com/pulse/linkedin-jobs-rise-2026-25-fastest-growing-roles-us-linkedin-news-dlb1c — *Measured.*
 - Skills: **70% of employers rate analytical thinking the #1 core skill**; AI & big data is the #1 fastest-growing skill — WEF Future of Jobs 2025 — Jan 2025 — https://www.weforum.org/publications/the-future-of-jobs-report-2025/ — *Survey.*
 - **84% of developers use/plan to use AI tools, but only 3% "highly trust" outputs and 46% distrust accuracy** — Stack Overflow 2025 Developer Survey — Dec 2025 — https://survey.stackoverflow.co/2025/ai/ — *Survey.*
+- Demand is **"shifting toward more experienced and AI-capable profiles"**; **upskilling existing staff (57%) is the #1 response to AI talent gaps, ahead of external hiring (49%)**, and organizations are **3.5× more likely to upskill than to hire** across strategic tech domains — Linux Foundation, "2026 State of Tech Talent Report" (Gerosa, Lawson & Hermansen) — May 2026 — https://www.linuxfoundation.org/hubfs/Research%20Reports/LFTraining_Tech_Talent_Report_Global_2026_web.pdf — *Survey (self-reported employer perceptions, n≈400).* **Supports the "raise altitude + keep upskilling" framing — used on the deck's "3 things to start tomorrow" slide.**
 
 **Reliability:** The senior-vs-junior posting split and comp-by-level data are measured and primary — strong. **The "product engineer" title is mostly anecdotal** — no robust posting-growth dataset exists. Treat "product engineer" as a cultural/qualitative signal; use Forward-Deployed Engineer as the hard-data analog. "Full-stack demand" is mostly recruiter survey sentiment.
 
@@ -72,6 +73,7 @@ The evidence that **junior/entry-level software roles have shrunk sharply since 
 - **"The AI job scare needs better evidence"**: separation rates unchanged, CS wage weakness began early 2022 (pre-ChatGPT) — AEI (Pethokoukis) — Jan 12, 2026 — https://www.aei.org/economics/the-ai-job-scare-needs-better-evidence/ — *Opinion citing Fed data.*
 - **Methodological critique of the Stanford study**: fails to control for immigration/OPT surge, survivorship bias — PolicySphere — Aug 27, 2025 — https://policysphere.com/morning-briefing/ — *Opinion/critique (not peer-reviewed).*
 - **Entry-level struggles mirror a marketwide decline**, "not employers pulling back on junior roles specifically" — Indeed Hiring Lab — Sept 25, 2025 — https://www.hiringlab.org/2025/09/25/september-labor-market-squeeze-on-new-entrants/ — *Measured.*
+- **AI is acting as a net *driver* of IT hiring, not a reducer**: net hiring effect of **+26% (2025), +31% (2026), +22% projected (2027)** across surveyed orgs; even **entry-level technical roles show +8%** (up from +6% in 2024), and software development +28%, AI-specific roles +60%. **Only enterprises with 20,000+ employees report a negative effect (−4%)** — i.e. the headline layoffs are concentrated at the largest firms while smaller orgs absorb talent — Linux Foundation, "2026 State of Tech Talent Report" — May 2026 — https://www.linuxfoundation.org/hubfs/Research%20Reports/LFTraining_Tech_Talent_Report_Global_2026_web.pdf — *Measured (self-reported employer survey, n≈400; explicitly does **not** isolate AI from macro conditions, industry cycles, or investment decisions).* **Tagline: "Not a jobs crisis, but a skills crisis."** ⚠️ *Cuts against the deck's "junior door narrowing" framing on entry-level specifically — use as honest counterweight, not as primary evidence.*
 
 **Sharpest counter-point:** the timing. Multiple independent sources show the entry-level/AI-exposed decline began **early-to-mid 2022, before ChatGPT** — if AI were the driver, you'd expect acceleration *after* Nov 2022, but the trend flattened.
 
@@ -86,6 +88,7 @@ The evidence that **junior/entry-level software roles have shrunk sharply since 
 5. **Staff Engineer median comp ~$457K (+7.5% YoY) vs Senior ~$312K (+4.2%) — pay accelerating fastest at the top.** (Levels.fyi, Dec 2025)
 6. **Flutter powers nearly 30% of all new iOS apps (up from ~10% in 2021), with 1M+ monthly active developers.** (Google, Dec 2024)
 7. **Honest counterweight: 33 months after ChatGPT, the Yale Budget Lab found no statistically discernible AI impact on employment in exposed occupations.** (Yale Budget Lab, Oct 2025)
+8. **Honest counterweight #2: AI is a net *driver* of IT hiring — +26% net effect in 2025, +31% in 2026, entry-level roles +8% — with layoffs concentrated only at 20,000+ employee enterprises (−4%). "Not a jobs crisis, but a skills crisis."** (Linux Foundation 2026 State of Tech Talent, May 2026)
 
 ---
 
